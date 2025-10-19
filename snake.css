@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(177, 226, 80);
+    background-image: url(images/snake.jpg);
+    /*background: linear-gradient();*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 10px 2px 6px #000000;
+}
+
+#gameBoard{
+    padding-top: 10px;
+    border: 5px solid rgb(17, 136, 77);
+    background: black;
+    border-radius: 10px;
+}
+#score{
+    padding: 10px 30px ;
+    font-size: 50px;
+}
+#resetBTn{
+    padding: 5px 15px;
+    font-size: 20px;
+    font-family: 'Orbitron';
+    color: rgb(17, 136, 77);
+    background: black;
+    border:  3px solid rgb(17, 136, 77);
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
